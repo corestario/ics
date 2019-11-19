@@ -38,7 +38,6 @@ Only one packet data type, `NonfungibleTokenPacketData`, which specifies the ass
 ```typescript
 interface NonfungibleTokenPacketData {
   id: string
-  tokenMetadataUri: string
   sender: string
   receiver: string
   source: boolean 
